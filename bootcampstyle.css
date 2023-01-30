@@ -1,0 +1,410 @@
+  .partnerwrapper{
+    background:#fff;
+   }
+  
+  .partners{
+    background:#fff;
+    margin-bottom: 30px;
+    padding:30px;
+  }
+  
+  .slidetrack{
+    display:flex;
+    height:200px;
+    justify-content: center;
+    column-gap: 10px;
+    margin-right:20px;
+    margin-left:20px;
+    align-items: center;
+  }
+  
+  /*why begins*/
+  
+  .why {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding:40px;
+    font-size:20px;
+    }
+  
+  .mission {
+    
+    justify-self: center;
+    text-align: center;
+  }
+  
+  .mission p {
+  
+  margin-top:20px;
+  }
+  
+  .mission2 {
+    justify-self: center;
+    text-align: center;
+    }
+  
+    .mission2 p {
+  
+      margin-top:20px;
+      }
+  
+  
+  /*why ends*/
+  
+  .pillars {
+    display:grid;
+    background-color: rgb(232, 227, 227);
+    align-items: center;
+    padding: 20px;
+    color:#000;
+    text-align: center;
+  }
+  
+  .containers {
+    max-width: 1060px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    }
+  
+  .itema {
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    margin:20px;
+    align-items: center;
+        }
+  
+  .itema img {
+   border-radius: 3px;
+   size: fill;
+  }
+  
+  .itema h2{
+    background: #ffff;
+    color: purple;
+    font-size: 20px;
+    border: 1px #fff solid;
+    margin:20px;
+    max-width: auto;
+    border-radius: 3px;
+    margin-top:10px;
+  
+  }
+  
+  .itema p{
+    display:flex;
+    background: #ffff;
+    color: #000;
+    font-size: 20px;
+    border: 1px #fff solid;
+    margin:10px;
+    max-width: auto;
+    border-radius: 3px;
+    margin-top:10px;
+  
+  }
+  .itemt {
+        background: #ffff;
+        color: #000;
+        font-size: 20px;
+        padding: 20px;
+        border: none;
+        margin:20px;
+        max-width: auto;
+        border-radius: 3px;
+        margin-top:40px;
+                }
+  .itemt h3{
+    color:purple;
+    margin-bottom: 20px;
+  }
+  
+  .joinus{
+    display:grid;
+    grid-template-columns: 1fr;
+    padding:0;
+    }
+  
+  .wrapperjoinus{
+    height:300px auto;
+    background: url(assets/images/joinus.jpg) no-repeat center / cover;
+    background-blend-mode: overlay #000;
+    text-align: center;
+    padding: 100px;
+    font-size:20px;
+    color:#fff;
+    }
+  
+    .wrapperjoinus button {
+    margin-top:30px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid white;
+    color: purple;
+    text-decoration-line: none;
+    }
+  
+    .wrapperjoinus button:hover {
+      background: white;
+      border: 2px solid purple;
+    }
+  
+  
+    .item button{
+    margin-top:30px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    transition: 0.5s;
+    margin: 10px;
+    background:#000;
+    border: 2px solid white;
+    color: purple;
+    text-decoration-line: none;
+    }
+  
+  
+    .testimonials{
+      display:grid;
+      background-color: rgb(236, 234, 234);;
+      justify-content: center;
+      align-items: center;
+      color:#000;
+      text-align: center;
+      margin:0 auto;
+      padding:30px;
+      font-size:20px;
+    }
+  
+    .testimonialcontainer {
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 10px;
+      
+      }
+  
+    .testimonialcard {
+      background: none;
+      padding: 20px;
+      border: none;
+                 }
+    .testimonialcard img {
+    border-radius: 3px; 
+    }
+                
+    .getinvolvedwrapper {
+      
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color:#000;
+      text-align: center;
+      font-size:20px;
+    }
+    
+    .getinvolved {
+      background-color: rgb(210, 199, 199);
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      }
+  
+      .getinvolvedwrapper a {
+     
+        text-decoration-line: none;
+      }
+  
+      .stat {
+        background-color: none;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color:#000;
+        text-align: left;
+        font-size:20px;
+      }
+      
+      .stat1 {
+       
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap:10px;
+        justify-content: center;
+        align-items: center;
+        }
+  
+        .statcard {
+          height:200px;
+          justify-self: center;
+          align-items: center;
+          color: #000;
+          font-size: 20px;
+          font-weight: bold;
+          background:rgb(245, 245, 245);
+          padding: 20px;
+          border: none;
+          border-radius:3px;
+              }
+      
+  
+      .partnercard {
+        height:300px;
+        justify-self: center;
+        align-items: center;
+        background: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        background:rgb(245, 245, 245);
+        padding: 20px;
+        border: none;
+        border-radius:3px;
+        margin:20px;
+            }
+  
+      .partnercard img {
+       border-radius:3px;
+  
+      }
+  
+  .partnercard button {
+    
+    margin-top:30px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 7px;
+    transition: 0.5s;
+    margin: 10px;
+    background:purple;
+    border: 2px solid ;
+    border-color: #fce3fd;
+    color: #fce3fd;
+    text-decoration-line: none;
+  
+  }
+  
+  .partnercard button:hover {
+    background: white;
+    border: 2px solid purple;
+  }
+  
+    .newsletter {
+    max-height:300px auto;
+    background: url(assets/images/cleandesk.webp) no-repeat center / cover;
+    text-align: center;
+    padding: 30px;
+    font-size:20px;
+    color:#000;
+   
+      }
+  
+     form {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  
+     }
+    
+  
+   
+  /* about page */
+  
+  
+  @media (max-width: 767px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+  
+    body{
+      
+      font-size: 1rem;
+    
+    }
+
+
+    .slidetrack img {
+      height: 50px;
+      width: 50px;
+    }
+    
+    
+    .containers {
+      max-width: 1 060px;
+      margin: 5px auto;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      border-style: hidden;
+      }
+    
+    
+    .testimonialcontainer {
+      max-width: 1060px;
+      min-height: 200px;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      padding-top:10px;
+      }
+  
+      .getinvolved {
+        max-width: 1060px;
+        min-height: 200px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        column-gap: 20px;
+          
+        }
+
+        .partnercard{
+          margin:20px;
+          font-size:10px;
+        }
+  
+  }
+  
+  
+  @media (min-width: 767px) {
+    /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
+  }
+  
+  @media (min-width: 979px) {
+  /* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
+  }
+  
+  @media (min-width: 1200px) {
+    /* Selectors and styles affecting screens WIDER THAN 1200px (Large Desktop) */
+  }
+  
+  
+  
